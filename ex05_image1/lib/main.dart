@@ -33,17 +33,17 @@ class _MyHomePageState extends State<MyHomePage> {
   // 현재 실행한 단말기의 다양한 화면 정보를 출력
   void getWindowSize() {  // print 로 출력한 결과는 디버그 콘솔에서 확인
     // 앱 화면에 논리적 크기. 개발자가 UI를 디자인할 때 주로 사용하는 크기 단위. Ex> Size(411.4, 683.4)
-    print(MediaQuery.of(context).size);
+    debugPrint(MediaQuery.of(context).size);
    
     // 화면 배율. 이 값은 논리적 픽셀 1개가 실제 물리적 픽셀 몇 개로 표현되는지를 나타냅니다. ex> 2.625
     // 이 값을 기준으로 Flutter는 적절한 해상도의 이미지를 자동으로 선택
-    print(MediaQuery.of(context).devicePixelRatio);
+    debugPrint(MediaQuery.of(context).devicePixelRatio);
 
     // 상단 상태 표시줄(배터리, 시계 등이 표시되는 부분) 높이 double Ex> 24.0
-    print(MediaQuery.of(context).padding.top);
+    debugPrint(MediaQuery.of(context).padding.top);
 
     // 앱 화면 실제 크기(물리적 픽셀 단위). 논리적 크기 * 픽셀 밀도 = 물리적 크기 관계가 성립    Ex>Size(1080.0, 1794.0)
-    print(PlatformDispatcher.instance.views.first.physicalSize);
+    debugPrint(PlatformDispatcher.instance.views.first.physicalSize);
   }
 
   @override
