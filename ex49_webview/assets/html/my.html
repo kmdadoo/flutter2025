@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function appToJs(msg){
+            alert(msg);
+        }
+       
+        function jsToApp(){
+            // alert(111);
+            // JS와 플로토간에 통신에 사용될 채널 이름이다.(맘대로 해도됨)
+            // postMessage 메서드를 통해서 단순히 메세지만 보낼수 있다.
+            JsFlutter.postMessage(222);
+        }
+    </script>
+</head>
+<body>
+    <h1>홍길동</h1>
+    <!-- 자바스크립터의 버튼으로 플러터에 메시지 보내서 액션 실행 -->
+    <input type="button" value="Flutter 메서드 호출" onclick="jsToApp()"/>
+</body>
+</html>
