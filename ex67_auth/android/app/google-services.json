@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "project_number": "620353347659",
+    "firebase_url": "https://flutter-study-e24cd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flutter-study-e24cd",
+    "storage_bucket": "flutter-study-e24cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620353347659:android:c2d760f454ccacc1cfedce",
+        "android_client_info": {
+          "package_name": "com.study.android.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30QJKBE1da2oNnnYF9cEjriKSUlaGsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620353347659:android:3586cb99fe3ed8c3cfedce",
+        "android_client_info": {
+          "package_name": "com.study.firebase.auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30QJKBE1da2oNnnYF9cEjriKSUlaGsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620353347659:android:59dad6cf2cd66c93cfedce",
+        "android_client_info": {
+          "package_name": "com.study.firebase.core"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30QJKBE1da2oNnnYF9cEjriKSUlaGsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620353347659:android:ab2fa3ec35d3e792cfedce",
+        "android_client_info": {
+          "package_name": "com.study.firebase.fcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30QJKBE1da2oNnnYF9cEjriKSUlaGsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620353347659:android:8ba27ecf4ca4629acfedce",
+        "android_client_info": {
+          "package_name": "com.study.firebase.firestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30QJKBE1da2oNnnYF9cEjriKSUlaGsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620353347659:android:4b587e339371a3c1cfedce",
+        "android_client_info": {
+          "package_name": "com.study.firebase.realtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30QJKBE1da2oNnnYF9cEjriKSUlaGsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620353347659:android:5c16e9bea4d331ddcfedce",
+        "android_client_info": {
+          "package_name": "com.study.firebase.storage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30QJKBE1da2oNnnYF9cEjriKSUlaGsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
